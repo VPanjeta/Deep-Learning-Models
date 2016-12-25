@@ -6,3 +6,4 @@ Inspired by Deep learning repository https://github.com/yusugomori/DeepLearning/
 Files added: <br/>
 1. fucntions.py - Contains the necessary functions for the models. It will be updated frequently as the functions are used in the uploaded files.<br/>
 2. RBM.py 		- Restricted Boltzmann Machine. (A Boltzmann Machine with 2 bipartite layers (visible and hidden)<br/>
+3. HL.py 		- Hidden Layer : The layers above the input layers. <br/>
