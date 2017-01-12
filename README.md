@@ -8,4 +8,5 @@ Files added: <br/>
 2. RBM.py 		- Restricted Boltzmann Machine. (A Boltzmann Machine with 2 bipartite layers (visible and hidden)<br/>
 3. HL.py 		- Hidden Layer : The layers above the input layers. <br/>
 4. LR.py 		- Logistic regression class.<br/>
-5. DBN.py 		- Dep Belief Nets, A multi layer Restricted Boltzmann Machine.<br/>
+5. DBN.py 		- Deep Belief Nets, A multi layer Restricted Boltzmann Machine.<br/>
+6. CRBM.py 		- Conditional Restricted Boltzmann Machine. Extends the RBM to capture temporal dependencies. <br/>
