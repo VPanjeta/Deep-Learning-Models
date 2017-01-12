@@ -24,7 +24,6 @@ class LogisticRegression:
         self.d_y = d_y
 
     def output(self, x):
-        # return sigmoid(numpy.dot(x, self.W) + self.b)
         return softmax(numpy.dot(x, self.W) + self.b)
 
     def predict(self, x):
@@ -32,7 +31,6 @@ class LogisticRegression:
 
 
     def negative_log_likelihood(self):
-        # sigmoid_activation = sigmoid(numpy.dot(self.x, self.W) + self.b)
         sigmoid_activation = softmax(numpy.dot(self.x, self.W) + self.b)
 
         cross_entropy = - numpy.mean(
@@ -65,8 +63,6 @@ def test_lr(learning_rate=0.1, n_epochs=500):
     # train
     for epoch in xrange(n_epochs):
         classifier.train(lr=learning_rate)
-        # cost = classifier.negative_log_likelihood()
-        # print >> sys.stderr, 'Training epoch %d, cost is ' % epoch, cost
         learning_rate *= 0.995
 
 

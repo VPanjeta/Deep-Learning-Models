@@ -61,9 +61,6 @@ class RBM(object):
         self.vbias += lr * numpy.mean(self.input - nv_samples, axis=0)
         self.hbias += lr * numpy.mean(ph_mean - nh_means, axis=0)
 
-        # cost = self.get_reconstruction_cross_entropy()
-        # return cost
-
 
     def sample_h_given_v(self, v0_sample):
         h1_mean = self.propup(v0_sample)
@@ -139,8 +136,6 @@ def test_rbm(learning_rate=0.1, k=1, training_epochs=1000):
     # train
     for epoch in xrange(training_epochs):
         rbm.contrastive_divergence(lr=learning_rate, k=k)
-        # cost = rbm.get_reconstruction_cross_entropy()
-        # print >> sys.stderr, 'Training epoch %d, cost is ' % epoch, cost
 
 
     # test
