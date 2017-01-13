@@ -10,3 +10,4 @@ Files added: <br/>
 4. LR.py 		- Logistic regression class.<br/>
 5. DBN.py 		- Deep Belief Nets, A multi layer Restricted Boltzmann Machine.<br/>
 6. CRBM.py 		- Conditional Restricted Boltzmann Machine. Extends the RBM to capture temporal dependencies. <br/>
+7. CDBN.py 		- Convolutional Deep Belief Nets.
