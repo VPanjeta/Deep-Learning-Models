@@ -8,7 +8,7 @@ from DBN import DBN
 from functions import *
 
  
-class CDBN(DBN):
+class CDBN:
     def __init__(self, input=None, label=None,\
                  n_ins=2, hidden_layer_sizes=[3, 3], n_outs=2,\
                  rng=None):
@@ -18,7 +18,7 @@ class CDBN(DBN):
 
         self.sigmoid_layers = []
         self.rbm_layers = []
-        self.n_layers = len(hidden_layer_sizes)  # = len(self.rbm_layers)
+        self.n_layers = len(hidden_layer_sizes)  
 
         if rng is None:
             rng = numpy.random.RandomState(1234)
