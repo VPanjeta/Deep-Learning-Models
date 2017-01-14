@@ -104,8 +104,7 @@ class DBN:
 
 
 
-def test_dbn(pretrain_lr=0.1, pretraining_epochs=1000, k=1, \
-             finetune_lr=0.1, finetune_epochs=200):
+def test_dbn(pretrain_lr=0.1, pretraining_epochs=1000, k=1, finetune_lr=0.1, finetune_epochs=200):
 
     x = numpy.array([[1,1,1,0,0,0],
                      [1,0,1,0,0,0],
