@@ -2,9 +2,8 @@ import sys
 import numpy
 from functions import *
 
-class RBM(object):
-    def __init__(self, input=None, n_visible=2, n_hidden=3, \
-        W=None, hbias=None, vbias=None, rng=None):
+class RBM :
+    def __init__(self, input=None, n_visible=2, n_hidden=3, W=None, hbias=None, vbias=None, rng=None):
         
         self.n_visible = n_visible  # num of units in visible (input) layer
         self.n_hidden = n_hidden    # num of units in hidden layer
@@ -47,17 +46,14 @@ class RBM(object):
 
         for step in xrange(k):
             if step == 0:
-                nv_means, nv_samples,\
-                nh_means, nh_samples = self.gibbs_hvh(chain_start)
+                nv_means, nv_samples, nh_means, nh_samples = self.gibbs_hvh(chain_start)
             else:
-                nv_means, nv_samples,\
-                nh_means, nh_samples = self.gibbs_hvh(nh_samples)
+                nv_means, nv_samples, nh_means, nh_samples = self.gibbs_hvh(nh_samples)
 
         # chain_end = nv_samples
 
 
-        self.W += lr * (numpy.dot(self.input.T, ph_mean)
-                        - numpy.dot(nv_samples.T, nh_means))
+        self.W += lr * (numpy.dot(self.input.T, ph_mean) - numpy.dot(nv_samples.T, nh_means))
         self.vbias += lr * numpy.mean(self.input - nv_samples, axis=0)
         self.hbias += lr * numpy.mean(ph_mean - nh_means, axis=0)
 
