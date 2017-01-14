@@ -9,9 +9,7 @@ from functions import *
 
  
 class CDBN:
-    def __init__(self, input=None, label=None,\
-                 n_ins=2, hidden_layer_sizes=[3, 3], n_outs=2,\
-                 rng=None):
+    def __init__(self, input=None, label=None, n_ins=2, hidden_layer_sizes=[3, 3], n_outs=2, rng=None):
         
         self.x = input
         self.y = label
@@ -77,8 +75,7 @@ class CDBN:
 
 
 
-def test_cdbn(pretrain_lr=0.1, pretraining_epochs=1000, k=1, \
-             finetune_lr=0.1, finetune_epochs=200):
+def test_cdbn(pretrain_lr=0.1, pretraining_epochs=1000, k=1, finetune_lr=0.1, finetune_epochs=200):
 
     x = numpy.array([[0.4, 0.5, 0.5, 0.,  0.,  0.],
                      [0.5, 0.3,  0.5, 0.,  0.,  0.],
