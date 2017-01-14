@@ -4,8 +4,7 @@ from functions import *
 
 
 class HiddenLayer:
-    def __init__(self, input, n_in, n_out,\
-                 W=None, b=None, rng=None, activation=tanh):
+    def __init__(self, input, n_in, n_out, W=None, b=None, rng=None, activation=tanh):
         
         if rng is None:
             rng = numpy.random.RandomState(1234)
