@@ -9,5 +9,6 @@ Files added: <br/>
 3. HL.py 		- Hidden Layer : The layers above the input layers. <br/>
 4. LR.py 		- Logistic regression class.<br/>
 5. DBN.py 		- Deep Belief Nets, A multi layer Restricted Boltzmann Machine.<br/>
-6. CRBM.py 		- Conditional Restricted Boltzmann Machine. Extends the RBM to capture temporal dependencies. <br/>
-7. CDBN.py 		- Convolutional Deep Belief Nets. <br/>
+6. CRBM.py 		- Restricted Boltzmann Machine with continuous valued-inputs. Extends the RBM to capture temporal dependencies. <br/>
+7. CDBN.py 		- Deep Belief Nets with continued value points input. <br/>
+8. MLP.py 		- Multi Layer Perceptron.
