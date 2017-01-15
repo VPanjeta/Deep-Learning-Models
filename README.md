@@ -11,4 +11,4 @@ Files added: <br/>
 5. DBN.py 		- Deep Belief Nets, A multi layer Restricted Boltzmann Machine.<br/>
 6. CRBM.py 		- Restricted Boltzmann Machine with continuous valued-inputs. Extends the RBM to capture temporal dependencies. <br/>
 7. CDBN.py 		- Deep Belief Nets with continued value points input. <br/>
-8. MLP.py 		- Multi Layer Perceptron.
+8. MLP.py 		- Multi Layer Perceptron.<br/>
