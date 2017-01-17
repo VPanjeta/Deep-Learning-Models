@@ -12,3 +12,4 @@ Files added: <br/>
 6. CRBM.py 		- Restricted Boltzmann Machine with continuous valued-inputs. Extends the RBM to capture temporal dependencies. <br/>
 7. CDBN.py 		- Deep Belief Nets with continued value points input. <br/>
 8. MLP.py 		- Multi Layer Perceptron.<br/>
+9. dA.py 		- Denoising Autoencoder.<br/>
