@@ -42,13 +42,12 @@ def create_demo_data(N_each, channel, n_in, n_out, rng, p=0.9):
 
     index = 0
     for k in xrange(n_out):  # for each class        
-        for num in xrange(N_each):  # for each sub data
+        for num in xrange(N_each):  
             for c in xrange(channel):
                 for i in xrange(n_in):
                     for j in xrange(n_in):                
 
                         if i < (k+1) * K and i >= k * K:
-                            # a = int(128 * rng.rand() + 128) * rng.binomial(size=1, n=1, p=p) / 256.0
                             a = 128.0 * rng.binomial(size=1, n=1, p=p) / 256.0
 
                         else:
