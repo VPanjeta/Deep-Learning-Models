@@ -14,3 +14,4 @@ Files added: <br/>
 8.  MLP.py      - Multi Layer Perceptron.<br/>
 9.  dA.py       - Denoising Autoencoder.<br/>
 10. SdA.py      - Stacked denoising Autoencoders. <br/>
+11. CPL.py  	- Convolution and Max Pooling.<br/>
