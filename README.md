@@ -1,6 +1,5 @@
 # Deep-Learning-Models
-Deep Learning Models implemented in python. <br/>
-I will be uploading the models in the upcoming days one by one. <br/>
+Deep Learning Models implemented in python using numpy arrays. <br/>
 Inspired by Deep learning repository https://github.com/yusugomori/DeepLearning/tree/master/cpp <br/>
 
 Files added: <br/>
