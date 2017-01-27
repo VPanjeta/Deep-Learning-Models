@@ -72,9 +72,7 @@ class HiddenLayer:
         if rng is None:
             rng = numpy.random.RandomState(123)
 
-        mask = rng.binomial(size=input.shape,
-                            n=1,
-                            p=1-p)  # p is the prob of dropping
+        mask = rng.binomial(size=input.shape, n=1, p=1-p)  # p is the prob of dropping
 
         return mask
                      
