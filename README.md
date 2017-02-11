@@ -14,4 +14,4 @@ Files added: <br/>
 9.  dA.py       - Denoising Autoencoder.<br/>
 10. SdA.py      - Stacked denoising Autoencoders. <br/>
 11. CPL.py  	- Convolution and Max Pooling.<br/>
-12. CNN.py 		- Convoltional Neural Network.<br/>
+12. CNN.py 		- Convolutional Neural Network.<br/>
