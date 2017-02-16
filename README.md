@@ -15,3 +15,4 @@ Files added: <br/>
 10. SdA.py      - Stacked denoising Autoencoders. <br/>
 11. CPL.py  	- Convolution and Max Pooling.<br/>
 12. CNN.py 		- Convolutional Neural Network.<br/>
+13. SVM.py  	- Support Vector Machine. <br/>
